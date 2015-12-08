@@ -43,7 +43,7 @@ class Animating {
 						this._disableTransition($target);
 						resolve();
 					});
-			});
+			}, 10);
 
 		});
 	}
