@@ -1,44 +1,18 @@
-# Image show action
+# Animating util
 
-Simple lightbox written in es6 and used via JSPM
+Util for js driven css animations. Relies on jQuery and Modernizr
 
 ## Usage
 
-
-**JSON (data-)**
-
-```
-[
-	{
-		"ref" : <string|ref>,
-		"urls" : {
-			"view" : <string|url>,
-			"download" : <string|url>
-		},
-		"title" : <string>,
-		"description" : <string>,
-		"meta" : [
-			<string>,
-			...
-		]
-	}
-]
-```
-
-**HTML**
-
-Initing module
+**JS**
 
 ```
-<div
-	class="a-image-show"
-	data-image-show="<json>"
-	data-image-show-link-class="<string|optional>"
-></div>
-```
-
-Links
-
-```
-<a href="#" data-image-show-ref="<string|ref>">This link will open an image-show<a>
+Animating.transition(
+	<jQueryObject>, // jQuery element
+	<object|cssFrom>, // { top : 0 }
+	<object|cssTo>, // { top : 100 }
+	<string|cssTransitionRule|optional> // 'all 400ms ease-in-out'
+).then(
+	<function|transitionEnd> // Called when transition is done
+);
 ```
