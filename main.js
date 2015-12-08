@@ -1,3 +1,3 @@
-import {autoInit as autoInit} from 'index';
+import Animating from 'index';
 
-console.log( autoInit() );
+console.log( Animating );

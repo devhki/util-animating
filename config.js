@@ -17,7 +17,7 @@ System.config({
     "babel-runtime": "npm:babel-runtime@5.8.34",
     "core-js": "npm:core-js@1.2.6",
     "jquery": "github:components/jquery@1.11.3",
-    "modernizr": "github:Modernizr/Modernizr@3.2.0",
+    "modernizr": "github:Modernizr/Modernizr@2.8.3",
     "github:jspm/nodelibs-assert@0.1.0": {
       "assert": "npm:assert@1.3.0"
     },
