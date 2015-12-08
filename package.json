@@ -1,6 +1,6 @@
 {
   "name": "util-animating",
-  "version": "0.0.1",
+  "version": "0.0.4",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -13,8 +13,8 @@
   },
   "jspm": {
     "dependencies": {
-      "jquery": "github:components/jquery@1",
-      "modernizr": "github:Modernizr/Modernizr@^2.8.3"
+      "Modernizr/Modernizr": "github:Modernizr/Modernizr@^2.8.0",
+      "jquery": "github:components/jquery@1"
     },
     "devDependencies": {
       "babel": "npm:babel-core@^5.8.24",
