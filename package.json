@@ -14,7 +14,7 @@
   "jspm": {
     "dependencies": {
       "jquery": "github:components/jquery@1",
-      "modernizr": "npm:modernizr@^3.2.0"
+      "modernizr": "github:Modernizr/Modernizr@^3.2.0"
     },
     "devDependencies": {
       "babel": "npm:babel-core@^5.8.24",
